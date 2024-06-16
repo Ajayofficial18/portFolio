@@ -1,0 +1,15 @@
+.parent{
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    position: fixed;
+}
+.parent h1{
+    color: #FFA500;
+    width: 700px;
+}
+.parent span{
+    width: 700px;
+}
