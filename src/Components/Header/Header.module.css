@@ -1,9 +1,6 @@
 .sidebar {
-    position: fixed;
-    right: 0;
-    top: 0;
     height: 100%;
-    width: 100px;
+    width: 7%;
     background: #121212;
     display: flex;
     flex-direction: column;
@@ -16,7 +13,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1rem;
     padding: 0;
     margin-top: 20px;
 }
@@ -38,7 +35,6 @@
 
 .icon {
     border-radius: 50%;
-    /* background: #FFb400; */
     background: #4a4948;
     font-size: 1.5rem;
     color: white;
@@ -48,5 +44,8 @@
 
 
 .icon:hover {
-    background-color: #FFA500;
+    background-color: #FFB400;
+    
 }
+
+

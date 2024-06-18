@@ -4,10 +4,15 @@ import { TiArrowRightThick } from "react-icons/ti";
 const Content = () => {
     return (
         <div className={styles.parent}>
-            <h1>- I'M AJAY GOUR.</h1>
-            <span>FULL STACK DEVELOPER</span>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi a veniam, rerum adipisci eveniet autem quasi laborum tempore quaerat maiores dolores accusamus possimus quibusdam debitis! Vitae provident velit officiis quae.</p>
-            <button>MORE ABOUT ME<TiArrowRightThick /></button>
+            <div className={styles.imgDiv}>
+                <img src="public\images\logo1.jpg" alt="profile" />
+            </div>
+            <div className={styles.secondParent}>
+                <h1>I'M AJAY GOUR.</h1>
+                <span>FULL STACK DEVELOPER</span>
+                <p>I’m Ajay Gour, a passionate and dedicated full-stack developer. I recently completed my Master of Computer Applications, where I honed my skills in programming languages such as Java, C++, C, and Python. My academic journey also led me to explore and master web development technologies, including HTML, CSS, and JavaScript, along with popular frameworks like React.js and Node.js.</p>
+                <button>MORE ABOUT ME <TiArrowRightThick className={styles.icon}/></button>
+            </div>
         </div>
     );
 }

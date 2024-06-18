@@ -1,15 +1,16 @@
-import './App.css'
+import styles from './App.module.css'
 import Header from './Components/Header/Header'
 import Content from "./Components/Content/Content"
 import About from "./Components/About/About"
 
 function App() {
   return (
-    <>
-      <Header/>
+    <section className={styles.section}>
       <Content/>
+      <Header/>
+      
       {/* <About/> */}
-    </>  
+    </section>  
   )
 }
 

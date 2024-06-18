@@ -1,15 +1,58 @@
-.parent{
-    background: #121212;
+.parent{    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 93%;
+    gap: 10rem;
+}
+.imgDiv{
+    background: #FFB400;
+    width: 50%;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 700px;
-    position: fixed;
+}
+
+.imgDiv img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.secondParent{
+    padding-top: 8rem;
+    width: 60%;
+    padding-right: 6rem;
 }
 .parent h1{
-    color: #FFA500;
-    width: 700px;
+    color: #FFB400;
+    font-weight: 800;
+    font-size:3rem; 
 }
 .parent span{
-    width: 700px;
+    font-weight: 800;
+    font-size:2.5rem;
 }
+.parent button{
+    
+    width: 17rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 1px solid #FFB400;
+    background: #121212;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+.icon {
+    border-radius: 50%;
+    background-color: #FFB400;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.7rem;
+    transition: background-color 0.5s ease;
+}
+
+
+/* .icon:hover {
+    background-color: #FFB400;
+    
+} */
