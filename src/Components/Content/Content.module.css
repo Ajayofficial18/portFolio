@@ -32,15 +32,18 @@
     font-size:2.5rem;
 }
 .parent button{
-    
-    width: 17rem;
-    height: 3rem;
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 1.5rem;
     border: 1px solid #FFB400;
     background: #121212;
     color: white;
-    font-weight: 800;
+    font-weight: 600;
     cursor: pointer;
+    padding-left: 3rem;
+    
 }
 .icon {
     border-radius: 50%;
