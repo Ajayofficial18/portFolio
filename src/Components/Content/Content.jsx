@@ -11,7 +11,10 @@ const Content = () => {
                 <h1>I'M AJAY GOUR.</h1>
                 <span>FULL STACK DEVELOPER</span>
                 <p>I’m Ajay Gour, a passionate and dedicated full-stack developer. I recently completed my Master of Computer Applications, where I honed my skills in programming languages such as Java, C++, C, and Python. My academic journey also led me to explore and master web development technologies, including HTML, CSS, and JavaScript, along with popular frameworks like React.js and Node.js.</p>
-                <button>MORE ABOUT ME <TiArrowRightThick className={styles.icon}/></button>
+                <span className={styles.bttn}>
+                    <button>MORE ABOUT ME </button>
+                    <TiArrowRightThick className={styles.icon}/>
+                </span>
             </div>
         </div>
     );
